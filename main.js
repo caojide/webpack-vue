@@ -1,13 +1,9 @@
-//main.js
-// import  App from './App.vue'
-// console.log(App)
-
-import Vue from  'vue'
-import App from './App.vue'
-
+import  Vue from  'vue'
+import App from './src/App'
 
 new Vue({
-  el: "#app",
-  components: {App},
-  template: '<App/>'
+    el: '#app',
+    components: {App},
+    template: '<App/>',
+
 })
